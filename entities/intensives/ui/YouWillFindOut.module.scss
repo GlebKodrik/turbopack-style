@@ -1,0 +1,41 @@
+.title {
+  margin-bottom: 40px;
+
+  @include r($mobile) {
+    margin-bottom: 24px;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  @include r($mobile) {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.card {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: 690px;
+
+  @include r($mobile) {
+    gap: 12px;
+    width: 100%;
+  }
+}
+
+.icon {
+  flex: none;
+  width: 40px;
+  height: 40px;
+
+  @include r($mobile) {
+    width: 32px;
+    height: 32px;
+  }
+}

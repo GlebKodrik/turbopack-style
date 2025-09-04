@@ -1,0 +1,14 @@
+.heading {
+  width: 72%;
+  margin-bottom: 60px;
+}
+
+.button {
+  display: inline-flex;
+
+  @include r($mobile) {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+}

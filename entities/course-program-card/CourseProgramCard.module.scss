@@ -1,0 +1,101 @@
+.badges {
+  margin-bottom: 16px;
+
+  @include r($mobile) {
+    margin-bottom: 12px;
+  }
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: white;
+
+  @include r($mobile) {
+   flex-direction: column;
+  }
+
+  & .info {
+    z-index: 1;
+    flex: 1 1 auto;
+    //z-index: 4;
+    //width: 50%;
+    
+    @include r($mobile) {
+      width: 100%;
+    }
+  }
+}
+
+.title {
+  font-size: 24px;
+
+  @include r($mobile) {
+    font-size: 18px;
+  }
+}
+
+.description {
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1B1B1B;
+
+
+  p, li {
+    font-size: 16px;
+    line-height: 20px;
+    color: #1B1B1B;
+
+    @include r($mobile) {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    @include r($mobile) {
+      gap: 8px;
+    }
+  }
+  ul li {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    padding-left: 14px;
+  }
+
+  ul li::before {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    content: '';
+    background-color: black;
+    border-radius: 50%;
+  }
+
+  p, ul  {
+    margin-bottom: 16px;
+    @include r($mobile) {
+      margin-bottom: 12px;
+    }
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+
+  @include r($mobile) {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

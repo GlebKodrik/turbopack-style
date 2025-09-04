@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  gap: 10px;
+
+  @include r($mobile) {
+    gap: 4px;
+  }
+}
+
+.input {
+  width: 68px;
+  height: 68px;
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  background: #FFF;
+  border: 1px solid  #BFBFBF;
+  border-radius: 16px;
+  outline: none;
+
+  &:focus {
+    border-color: #7001FD !important;
+  }
+
+  @include r($mobile) {
+    width: 44px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+  }
+}
+
+.notValid {
+  background-color: #F9CCD6;
+  border: 1px solid #B22222;
+}
+
+.error {
+  font-size: 14px;
+  color: #B22222;
+  text-align: start;
+
+  @include r($mobile) {
+    font-size: 12px;
+  }
+}

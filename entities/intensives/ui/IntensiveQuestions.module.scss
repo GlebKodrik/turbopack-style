@@ -1,0 +1,22 @@
+.title {
+  margin-bottom: 40px;
+
+  @include r($mobile) {
+    margin-bottom: 24px;
+  }
+}
+
+
+.collapses {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  span {
+    display: block;
+  }
+}
+
+.link {
+  color: #7001FD;
+}

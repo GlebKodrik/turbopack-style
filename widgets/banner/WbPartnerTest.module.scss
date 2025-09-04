@@ -1,0 +1,7 @@
+.button {
+  margin-top: 60px;
+
+  @include r($mobile) {
+    margin-top: 0;
+  }
+}

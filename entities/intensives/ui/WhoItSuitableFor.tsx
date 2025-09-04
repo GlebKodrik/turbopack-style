@@ -31,7 +31,7 @@ export const WhoItSuitableFor = ({
         color="secondary"
         className={styles.title}
       >
-        Кому подойдет
+        Ne
       </Heading>
 
       <div className={styles.whoCards}>
@@ -51,7 +51,7 @@ export const WhoItSuitableFor = ({
             <ResponsiveImage
               className={styles.image}
               src={el.image_absolute}
-              alt="Кому подойдет интенсив"
+              alt="Next"
             />
           </Card>
         ))}

@@ -65,7 +65,7 @@ export const ChannelBanner = ({
         className={styles.button}
         size="s"
       >
-        Участвовать в интенсиве
+        Send
       </Button>
     </Card>
   );

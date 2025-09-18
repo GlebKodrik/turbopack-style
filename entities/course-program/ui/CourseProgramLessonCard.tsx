@@ -65,24 +65,7 @@ export const CourseProgramLessonCard = ({
     return (
       <>
         <div className={styles.desktopImageContainer}>
-          <img
-            className={styles.desktopImage}
-            src={ImageDesktop.src}
-            alt="Изображение курса"
-          />
-        </div>
-        <div className={styles.mobileImageContainer}>
-          <img
-            src={InsightsBackgroundMobile.src}
-            className={styles.mobileBg}
-          />
-          <Image
-            className={styles.mobileImage}
-            src={HandsHoldingIpadHalf.src}
-            alt="Hands holding ipad"
-            height={360}
-            width={180}
-          />
+          Next
         </div>
       </>
     );

@@ -19,7 +19,7 @@
     "env-cmd": "^10.1.0",
     "file-loader": "6.2.0",
     "lint-staged": "^15.2.9",
-    "next": "15.5.1-canary.24",
+    "next": "15.6.0-canary.12",
     "prettier": "^3.4.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

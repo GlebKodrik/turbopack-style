@@ -3,7 +3,6 @@
 import Image, { ImageProps } from 'next/image';
 import React, { FC, useEffect, useState } from 'react';
 
-import ImageError from '@/shared/assets/placeholder/image-error-placeholder.svg';
 import { cn } from '@/shared/lib/tailwind-merge';
 import { DATA_BLUR_URL } from '@/shared/ui/custom-image/lib/blur';
 
@@ -30,7 +29,6 @@ export const CustomImage: FC<CustomImageProps> = ({
 
   const handleError = () => {
     setIsError(true);
-    setImage(ImageError);
   };
 
   // для картинок с размерами меньше 40px - не грузим плейсхолдер

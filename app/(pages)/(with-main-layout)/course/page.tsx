@@ -1,9 +1,11 @@
-import { CourseProgramContainer } from '@/widgets/course-program';
+import React from 'react';
+
+import { CourseProgramStudy } from '@/entities/course-program';
 
 export default async function CourseProgram() {
   return (
     <>
-      <CourseProgramContainer />
+      <CourseProgramStudy />
     </>
   );
 }

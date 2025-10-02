@@ -5,11 +5,7 @@ import { CourseProgramStudy } from '@/entities/course-program';
 export const CourseProgramContainer = () => {
   return (
     <>
-      <CourseProgramStudy
-        image=""
-        title="Hello"
-        description=""
-      />
+      <CourseProgramStudy />
     </>
   );
 };

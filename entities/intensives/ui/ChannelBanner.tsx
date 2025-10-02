@@ -1,29 +1,15 @@
 import { Card } from '@/shared/ui/card';
-import { Button, Heading } from '@/shared/ui/redesign';
+import { Button } from '@/shared/ui/redesign';
 
 import styles from './ChannelBanner.module.scss';
 
-interface ChannelBannerProps {
-  telegramBlock: any;
-}
-
-export const ChannelBanner = ({
-  telegramBlock = { title: '', description: '' },
-}: ChannelBannerProps) => {
+export const ChannelBanner = () => {
   return (
     <Card
       size="small"
       className={styles.bannerCard}
     >
-      <div>
-        <Heading
-          variant="h3"
-          as="h4"
-          className={styles.bannerTitle}
-        >
-          {telegramBlock.title}
-        </Heading>
-      </div>
+      <div className={styles.bannerTitle}>NEXT JS TOP</div>
       <Button
         onClick={() => {}}
         theme="purple"

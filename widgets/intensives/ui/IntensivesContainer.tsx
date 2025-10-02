@@ -2,27 +2,16 @@
 
 import React from 'react';
 
-import { WhoItSuitableFor, YouWillFindOut } from '@/entities/intensives';
+import { WhoItSuitableFor } from '@/entities/intensives';
 
-import styles from './IntensivesContainer.module.scss';
-
-type IntensivesContainerProps = { uid: string };
-
-export const IntensivesContainer = ({ uid }: IntensivesContainerProps) => {
+export const IntensivesContainer = () => {
   return (
-    <div className={styles.wrapper}>
-      <div className="main-wrapper">
-        <YouWillFindOut items={[{ text: 'dsfdff', image_absolute: '' }]} />
-
-        <WhoItSuitableFor
-          handleSubscribe={() => {}}
-          id={uid}
-          dayStart="22.06.2000"
-          forWhom={{ title: 'dsads', elements: [] }}
-          intensiveTitle="dsffdsf"
-          telegramBlock={{ title: 'Test', description: 'test' }}
-        />
-      </div>
-    </div>
+    <WhoItSuitableFor
+      handleSubscribe={() => {}}
+      id="test"
+      dayStart="22.06.2000"
+      intensiveTitle="dsffdsf"
+      telegramBlock={{ title: 'Test', description: 'test' }}
+    />
   );
 };

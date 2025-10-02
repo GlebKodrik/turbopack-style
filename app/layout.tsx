@@ -1,7 +1,5 @@
 import { ReactNode } from 'react';
 
-import { AppProvider } from '@/app/_providers/AppProvider';
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -9,9 +7,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <AppProvider>
-        <body>{children}</body>
-      </AppProvider>
+      <body>{children}</body>
     </html>
   );
 }

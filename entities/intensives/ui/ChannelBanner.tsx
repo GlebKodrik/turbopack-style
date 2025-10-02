@@ -11,7 +11,6 @@ export const ChannelBanner = () => {
       <div className={styles.bannerTitle}>NEXT JS TOP</div>
       <button
         type="button"
-        onClick={() => {}}
         className={styles.button}
       >
         Send

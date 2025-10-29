@@ -68,9 +68,7 @@
     margin-right: 12px;
     border-radius: 4px;
 
-    @include r($mobile) {
-      margin-right: 8px;
-    }
+
   }
 }
 

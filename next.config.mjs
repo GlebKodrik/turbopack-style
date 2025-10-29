@@ -20,9 +20,6 @@ const nextConfig = {
       as: '*.svg',
     },
   },
-  sassOptions: {
-    additionalData: '@use "app/styles" as *;',
-  },
 };
 
 export default nextConfig;

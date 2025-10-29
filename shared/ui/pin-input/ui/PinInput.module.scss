@@ -2,9 +2,6 @@
   display: flex;
   gap: 10px;
 
-  @include r($mobile) {
-    gap: 4px;
-  }
 }
 
 .input {
@@ -23,13 +20,6 @@
     border-color: #7001FD !important;
   }
 
-  @include r($mobile) {
-    width: 44px;
-    height: 44px;
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 8px;
-  }
 }
 
 .notValid {
@@ -42,7 +32,4 @@
   color: #B22222;
   text-align: start;
 
-  @include r($mobile) {
-    font-size: 12px;
-  }
 }

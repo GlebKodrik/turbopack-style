@@ -14,9 +14,7 @@
   width: 600px;
   color: var(--text-icon-secondary, #8F8FA3);
 
-  @include r($mobile) {
-    width: 100%;
-  }
+
 }
 
 .info {
@@ -25,7 +23,5 @@
   gap: 12px;
   text-align: center;
 
-  @include r($mobile) {
-    gap: 10px;
-  }
+
 }

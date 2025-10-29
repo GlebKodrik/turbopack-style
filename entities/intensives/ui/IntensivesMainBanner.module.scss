@@ -16,16 +16,12 @@
   flex-direction: column;
   width: 60%;
   height: 100%;
-  @include r($mobile) {
-    width: 100%;
-  }
+
 }
 
 .badges {
   margin-bottom: 16px;
-  @include r($mobile) {
-    margin-bottom: 12px;
-  }
+
 }
 
 .badge {
@@ -35,9 +31,7 @@
 .title {
   margin-bottom: 16px;
 
-  @include r($mobile) {
-    margin-bottom: 12px;
-  }
+
 }
 
 .description {
@@ -46,9 +40,7 @@
   line-height: 28px;
   color: #F7F7FA;
 
-  @include r($mobile) {
-    margin-bottom: 20px;
-  }
+
 }
 
 .time {
@@ -72,31 +64,17 @@
     font-weight: 500;
     color: #8EFD01;
 
-    @include r($mobile) {
-      font-size: 18px;
-    }
+
   }
 
-  @include r($mobile) {
-    position: static;
-    gap: 4px;
-    width: 100%;
-    max-width: unset;
-    padding: 8px 12px;
-    margin-bottom: 16px;
-    font-size: 12px;
-    border-radius: 12px;
-  }
+
 }
 
 .button {
   width: 380px;
   margin-top: auto;
 
-  @include r($mobile) {
-    width: 100%;
-    font-weight: 400;
-  }
+
 }
 
 .image {
@@ -106,17 +84,11 @@
   width: 350px;
   height: 200px;
 
-  @include r($mobile) {
-    display: none;
-  }
+
 }
 
 .mobileImage {
-  @include r($mobile) {
-    width: 200px;
-    height: 115px;
-    margin-bottom: 20px;
-  }
+
 }
 
 .round {
@@ -131,10 +103,5 @@
   filter: blur(260px);
   border-radius: 355px;
 
-  @include r($mobile) {
-    right: -24px;
-    bottom: -84px;
-    width: 244px;
-    height: 300px;
-  }
+
 }

@@ -1,15 +1,11 @@
 .mobile {
     display: none;
 
-    @include r($mobile) {
-        display: block;
-    }
+
 }
 
 .desktop {
     display: block;
 
-    @include r($mobile) {
-        display: none;
-    }
+
 }

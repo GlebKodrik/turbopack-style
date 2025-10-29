@@ -32,9 +32,7 @@
   font-weight: 400;
   line-height: 125%;
   color: #FFFFFF;
-  @include r($mobile) {
-    font-size: 14px;
-  }
+
 }
 
 .timerInvalid {
@@ -56,10 +54,7 @@
     line-height: 124%;
     color: var(--secondary-background);
 
-    @include r($mobile) {
-      width: unset;
-      font-size: 24px;
-    }
+
   }
 
   .digit {
@@ -69,16 +64,11 @@
     line-height: 124%;
     color: var(--secondary-background);
 
-    @include r($mobile) {
-      width: unset;
-      font-size: 24px;
-    }
+
 
     & + .digit {
       margin-left: 4px;
-      @include r($mobile) {
-        margin-left: 0;
-      }
+
     }
   }
 
@@ -91,10 +81,7 @@
     line-height: 124%;
     color: var(--secondary-background);
 
-    @include r($mobile) {
-      margin: 0 2px;
-      font-size: 24px;
-    }
+
   }
 
   .timerFont {

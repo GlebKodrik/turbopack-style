@@ -2,15 +2,7 @@
     display: flex;
     gap: 8px;
 
-    @include r($mobile) {
-        flex-direction: column;
 
-        &,
-        a,
-        button {
-            width: 100%;
-        }
-    }
 }
 
 .static {

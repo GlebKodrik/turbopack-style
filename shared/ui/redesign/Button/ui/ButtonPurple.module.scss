@@ -1,7 +1,7 @@
 button.primary, a.primary {
   color: #7001FD;
   background-color: white;
-  @include transition;
+
 
   &:hover {
     opacity: 0.75;
@@ -15,7 +15,7 @@ button.primary, a.primary {
 button.secondary, a.secondary {
   color: white;
   background-color: #9B4DFE;
-  @include transition;
+
 
   &:hover {
     background-color: #5200BA;

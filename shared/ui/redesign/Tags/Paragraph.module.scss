@@ -4,18 +4,15 @@
 }
 
 .medium {
-  @include fluid-font-size(14px, 20px);
-  @include fluid-line-height(18px, 26px);
+
 }
 
 .large {
-  @include fluid-font-size(14px, 24px);
-  @include fluid-line-height(18px, 30px);
+
 }
 
 .body {
-  @include fluid-font-size(14px, 16px);
-  @include fluid-line-height(18px, 20px);
+
 }
 
 .primary {

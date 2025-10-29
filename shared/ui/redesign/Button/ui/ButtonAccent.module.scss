@@ -4,7 +4,7 @@ a.primary,
 a.secondary {
   color: var(--secondary-color);
   background-color: var(--secondary-background);
-  @include transition;
+
 
   &:hover {
     background-color: var(--secondary-background-hover);

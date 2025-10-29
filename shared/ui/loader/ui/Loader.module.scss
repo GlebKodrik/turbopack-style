@@ -37,9 +37,7 @@
 .rounded {
  border-radius: 24px;
 
-  @include r($mobile) {
-    border-radius: 16px;
-  }
+
 }
 
 @keyframes zRotation {

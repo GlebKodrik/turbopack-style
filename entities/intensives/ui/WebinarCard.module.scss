@@ -15,12 +15,7 @@
   font-size: 18px;
   font-weight: 400;
 
-  @include r($mobile) {
-    width: 100%;
-    margin-top: 24px;
-    margin-left: 0;
-    font-size: 16px;
-  }
+
 }
 
 .lockedAttention {
@@ -34,8 +29,7 @@
   & span {
     color: black;
 
-    @include fluid-font-size(16px, 18px);
-    @include fluid-line-height(20px, 24px);
+
   }
 
   & svg {
@@ -43,9 +37,5 @@
     height: 20px;
   }
   
-  @include r($mobile) {
-    flex-basis: unset;
-    margin-top: 24px;
-    margin-left: 0;
-  }
+
 }

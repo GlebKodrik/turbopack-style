@@ -15,9 +15,7 @@
   &_m {
     --icon-animate-base-size: 40px;
 
-    @include r($mobile) {
-      --icon-animate-base-size: 32px;
-    }
+
   }
 }
 

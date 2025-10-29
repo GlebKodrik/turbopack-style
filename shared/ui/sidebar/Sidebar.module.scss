@@ -67,9 +67,7 @@
   justify-content: space-between;
   margin-bottom: 60px;
 
-  @include r($mobile) {
-    margin-bottom: 24px;
-  }
+
 
   .title {
     font-family: var(--font-unbounded), sans-serif;
@@ -77,19 +75,14 @@
     font-weight: 500;
     color: #1B1B1B;
 
-    @include r($mobile) {
-      font-size: 24px;
-    }
+
   }
 
   .cross {
     width: 24px;
     height: 24px;
 
-    @include r($mobile) {
-      width: 16px;
-      height: 16px;
-    }
+
   }
 }
 

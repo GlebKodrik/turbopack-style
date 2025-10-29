@@ -1,5 +1,5 @@
 .card {
-  @include transition;
+
 
   &:hover {
     transform: scale(var(--scale-up));
@@ -16,9 +16,6 @@
   right: 0;
   height: 100%;
 
-  @include r($mobile) {
-    display: none;
-  }
 }
 
 .desktopImage {
@@ -28,10 +25,7 @@
 .mobileImageContainer {
   display: none;
 
-  @include r($mobile) {
-    display: flex;
-    justify-content: center;
-  }
+
 }
 
 .mobileBg {

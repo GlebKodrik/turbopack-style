@@ -2,9 +2,7 @@
     &_l {
         --collase-margin-left: 32px;
 
-        @include r($mobile) {
-            --collase-margin-left: 16px;
-        }
+
     }
 }
 
@@ -46,10 +44,7 @@
         font-size: 24px;
         line-height: 30px;
 
-        @include r($mobile) {
-            font-size: 16px;
-            line-height: 20px;
-        }
+
     }
 }
 
@@ -57,7 +52,5 @@
     display: flex;
     margin-left: var(--collase-margin-left);
 
-    @include r($mobile) {
-        margin-left: var(--collase-margin-left);
-    }
+
 }
